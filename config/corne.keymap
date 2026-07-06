@@ -42,13 +42,13 @@
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | [CTRL+ESC] |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | LOWER | [CMD|SPC] | [M&B|ENT] |   | [LOWER|DEL] | [RALT|BSPC] | RAISE |
+            //                    | LOWER | [CMD|SPC] | [M&B|ENT] |   | [RAISE|DEL] | [RALT|BSPC] | LGUI |
 
             bindings = <
 &kp TAB        &kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &mt LCTRL ESC  &kp A  &kp S  &kp D     &kp F  &kp G          &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &lt 1 B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                    &mo 1   &mt LGUI SPACE  &lt 3 RET     &lt 1 DEL  &mt RALT BSPC  &mo 3 
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &lt 1 B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LSHFT
+                    &mo 1   &mt LGUI SPACE  &lt 3 RET     &lt 2 DEL  &mt RALT BSPC  &kp LGUI
             >;
         };
 
